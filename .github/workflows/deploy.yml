@@ -17,7 +17,7 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'stable'   # ← CHANGE HERE
+          flutter-version: '3.29.0'
 
       - run: flutter pub get
       - run: flutter build web --release --base-href="/Mamoun-form-assignment/"
